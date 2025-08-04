@@ -81,12 +81,14 @@ J(u) = \sum_{j=1}^N \int\limits_0^{l_j} (y_j(T, x) - f_j(x))^2 \, dx + \lambda\s
     ```bash
     pip install numpy matplotlib
     ```
+    <!-- 
     Для сохранения анимаций в формате GIF может потребоваться установка дополнительных программ, таких как [ImageMagick](https://imagemagick.org/) или [ffmpeg](https://ffmpeg.org/). Pillow также является хорошей альтернативой.
     ```bash
     pip install Pillow
     ```
+    -->
 
-3.  **Запустите примеры:**
+4.  **Запустите примеры:**
     В репозитории находятся два основных скрипта, соответствующие примерам из работы:
     ```bash
     python example1.py
