@@ -19,10 +19,9 @@
 
 **Пример 1: Задача с известным решением (N=3)**
 ![Демонстрация работы примера 1](./Assets/example1_optimize.gif)
-![Animation Example 1](https://via.placeholder.com/800x400.png?text=Вставьте+сюда+вашу+GIF-анимацию+для+Примера+1)
 
 **Пример 2: Задача со сложными целевыми функциями (N=2)**
-![Animation Example 2](https://via.placeholder.com/800x400.png?text=Вставьте+сюда+вашу+GIF-анимацию+для+Примера+2)
+![Демонстрация работы примера 2](./Assets/example2_optimize.gif)
 
 ---
 
