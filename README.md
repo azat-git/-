@@ -30,11 +30,11 @@
 Рассматривается задача управления системой из N струн, соединенных в одной точке (топология "звезда"). Динамика каждой струны описывается волновым уравнением:
 ```math
 \begin{cases}
-    y_{jtt}(t, x) = y_{jxx}(t, x), \quad t \in (0, T), \quad x \in (0, l_j), \quad j = 1,...,N, \\
-    y_j(t, 0) = u_j(t) <!--\quad \text{(управление)}-->, \quad t \in (0, T), \quad j = 1,...,N, \\
-    y_j(t, l_j) = y_k(t, l_k) <!--\quad \text{(условие сочленения)}-->, \quad t \in (0, T), \quad j = 1,...,N, \quad k = 1,...,N, \\
-    \sum\limits_{j=1}^N y_{jx}(t, l_j) = 0 <!--\quad \text{(условие Кирхгофа)}-->, \quad t \in (0, T), \\
-    y_j(0, x) = 0, \quad y_{jt}(0, x) = 0 <!--\quad \text{(нулевые начальные условия)}-->, \quad x \in (0, l_j), \quad j = 1,...,N.
+    y_{jtt}(t, x) = y_{jxx}(t, x), \quad &t \in (0, T), \quad x \in (0, l_j), \quad j = 1,...,N, \\
+    y_j(t, 0) = u_j(t) <!--\quad \text{(управление)}-->, \quad &t \in (0, T), \quad j = 1,...,N, \\
+    y_j(t, l_j) = y_k(t, l_k) <!--\quad \text{(условие сочленения)}-->, \quad &t \in (0, T), \quad j = 1,...,N, \quad k = 1,...,N, \\
+    \sum\limits_{j=1}^N y_{jx}(t, l_j) = 0 <!--\quad \text{(условие Кирхгофа)}-->, \quad &t \in (0, T), \\
+    y_j(0, x) = 0, \quad y_{jt}(0, x) = 0 <!--\quad \text{(нулевые начальные условия)}-->, \quad &x \in (0, l_j), \quad j = 1,...,N.
 \end{cases}
 ```
 **Цель:** найти такие управления $u_j(t)$, которые переводят систему в состояние $y_j(T, x) = f_j(x)$ и минимизируют функционал:
